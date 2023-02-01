@@ -1,0 +1,221 @@
+*{
+    font-family: roboto;
+}
+.wrapper{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+.wrap{
+    width: 1200px;
+    border: 1px solid #3b4043;
+    background-color: #181a1b;
+    border-radius: var(--primer-borderRadius-medium, 6px);
+    padding: 5px;
+    height: fit-content;
+}
+.title{
+    display: flex;
+    font-size: 1.5rem;
+}
+.l1{
+    color:goldenrod;
+}
+.l2{
+    color: crimson;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.form{
+    width: 40%;
+    height: fit-content;
+    border: 1px solid #3b4043;
+    display: flex;
+    border-radius: var(--primer-borderRadius-medium, 6px);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+.list{
+    width: 60%;
+    height: fit-content;
+    border: 1px solid #3b4043;
+    border-radius: var(--primer-borderRadius-medium, 6px);
+    margin: 5px;
+    padding: 5px;
+    overflow: auto;
+}
+.user-table{
+    
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #3b4043;
+    border-radius: var(--primer-borderRadius-medium, 6px);
+}
+table.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.user-table thead tr th {
+padding: 10px;
+font-weight: bold;
+color:darkorange;
+background-color: #f2f2f2;
+border-bottom: 1px solid #ddd;
+}
+
+table.user-table tbody tr td {
+padding: 10px;
+border-bottom: 1px solid #ddd;
+text-align: center;
+}
+
+table.user-table tbody tr:hover {
+background-color: #f5f5f5;
+}
+
+table.user-table tbody tr td.text-center {
+text-align: center;
+}
+
+table.user-table tbody tr td.text-right {
+text-align: right;
+}
+
+/* Count Wrapper Style */
+#users-count {
+margin-bottom: 20px;
+}
+.list-color{
+    color:darkgoldenrod;
+
+}
+.username a{
+    pointer-events: none;
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+.delete-btn{
+    background-color: crimson;
+    outline: none !important;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 4px;
+    cursor: pointer;
+}
+.edit-btn:hover{
+    background-color:firebrick;
+}
+.edit-btn{
+    color: white;
+    width: 100px;
+    background-color:darkgreen;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 4px;
+}
+.edit-btn:hover{
+    background-color: green;
+}
+
+
+.form-can{
+    width: 100%;
+}
+.form-wrap{
+    display: flex;
+    justify-content: center;
+}
+.form-con{
+    width: 80%;
+}
+.fields{
+    padding-top: 5px;
+}
+.fields input{
+    background-color: #181a1b;
+    outline: none !important;
+    width: 96%;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 1rem;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid #cecece;
+    text-align: center;
+    color: goldenrod;
+}   
+.fields input:hover{
+    border-color: goldenrod;
+}   
+.fields input:focus{
+    border-color: goldenrod;
+}   
+.fields input::placeholder{
+    color:chocolate;
+}
+.form-wrap label{
+    color: goldenrod;
+}
+.fields-btn{
+    width: 99%;
+    height: fit-content;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.fields-btn input{
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #cecece;
+    outline: none !important;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #181a1b;
+    cursor: pointer;
+}
+.fields-btn input:hover{
+    border-color: goldenrod;
+    color: goldenrod;
+    background-color: #181a1b;
+}
+.form-err{
+    background-color: #181a1b;
+}
+span{
+    color:chocolate;
+    font-weight: bold;
+}
+.form{
+    display: block;
+}
+.alert{
+    color: green;
+}
+.edit-con{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.edit-wrap{
+    margin-top: 100px;
+    width: fit-content;
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #3b4043;
+    border-radius: 5px;
+}
+.title {
+    font-size: 1.3rem;
+}

@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="wrap">
+
+    <div class="title">
+      <h1 class="l1">re</h1>
+      <h1 class="l2">Former</h1>
+    </div>
+
+    <div class="container">
+      <div class="form" id="user-form">
+          
+          <%= render partial: "form", locals: { user: @user } %>
+          
+          <div id="flash" class="flash">
+                  <%= render partial: "shared/flash" %>
+          </div>
+      </div>
+
+        <div class="list">
+          <%= render partial: "list", locals: { users: @users } %>
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+
+
+
